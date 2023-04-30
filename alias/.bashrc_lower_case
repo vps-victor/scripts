@@ -1,0 +1,2 @@
+# Add this alias to your ~/.bashrc
+alias lowercase='tr "[:upper:]" "[:lower:]"'
