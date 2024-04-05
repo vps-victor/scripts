@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Alternative Docker PRUNE command for older Docker API versions.
+# Raw text colors
+
 # Step 1 - Would you like to remove containers? (y OR n)
 read -p "Step 1 - Would you like to remove containers? (y/n): " remove_containers
 if [ "$remove_containers" == "y" ]; then
@@ -41,4 +44,3 @@ if [ "$remove_images" == "y" ]; then
 else
     echo "Skipping image removal."
 fi
-
